@@ -18,7 +18,7 @@ Widget build(BuildContext context) {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Expanded(
-            child: Image.network(
+            child: Image.asset(
               artData.imageUrl,
               width: double.infinity,
               height: 500.0,

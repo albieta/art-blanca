@@ -24,7 +24,7 @@ class ArtPage extends StatelessWidget {
           ),
           SliverGrid(
             gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-              maxCrossAxisExtent: 400.0,
+              maxCrossAxisExtent: 300.0,
               crossAxisSpacing: 8.0,
               mainAxisSpacing: 8.0,
             ),
@@ -52,7 +52,7 @@ class ArtPage extends StatelessWidget {
                           child: Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16.0),
                             child: ClipRRect(
-                              child: Image.network(
+                              child: Image.asset(
                                 fakeDataList[index].imageUrl,
                                 width: double.infinity,
                                 fit: BoxFit.cover,
